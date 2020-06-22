@@ -1,0 +1,32 @@
+body {
+    background-color: darkgrey;
+}
+
+/* .nav-item { */
+    /* font-size: 20px; */
+    /* color: black; */
+/* } */
+
+h1.navbar-brand {
+    background-color: orangered;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    margin-top: 20;
+    font-size: 25px;
+}
+
+nav {
+    border-bottom: solid 3px gray;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    color: rgb(68, 68, 250);
+    text-align: center;
+    bottom: 0;
+    padding: 20px 0px 10px 0;
+    border-top: solid 3px gray;
+}
