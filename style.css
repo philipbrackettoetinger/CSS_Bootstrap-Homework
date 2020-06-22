@@ -2,10 +2,6 @@ body {
     background-color: darkgrey;
 }
 
-/* .nav-item { */
-    /* font-size: 20px; */
-    /* color: black; */
-/* } */
 
 h1.navbar-brand {
     background-color: orangered;
@@ -29,4 +25,23 @@ nav {
     bottom: 0;
     padding: 20px 0px 10px 0;
     border-top: solid 3px gray;
+}
+
+.card {
+    max-width: 500px;
+    margin: 125px 50px;
+    text-align: auto;
+}
+
+input {
+    width: 100%;
+}
+
+label {
+    margin-bottom: 0;
+    padding-top: 8px;
+}
+
+.btn {
+    margin-top: 20px;
 }
