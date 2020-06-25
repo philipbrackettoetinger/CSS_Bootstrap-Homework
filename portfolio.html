@@ -3,33 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to Bootstrap here. -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Link to the CSS sheet here. -->
     <link rel="stylesheet" href="./style.css">
     <title>Responsive Portfolio</title>
 </head>
-
 <body>
-    <!-- This space is for a header that includes your name and will adjust per screen size -->
-    <nav class="row justify-content-between navbar bg-white fixed-top navbar-expand-md">
-        <h1 class="col-md-auto navbar-brand ml-5">Philip Brackett-Oetinger</h1>
-    
-    <!-- This space is for a navbar with 3 links on it that will be on the right hand side and be center justified when shrunk.  -->
-     <ul class="col-md-auto justify-content-end nav-fill navbar-nav ml-5">
-        <li class=“nav-item”>
-          <a class=“nav-link” href="./index.html">About</a>&nbsp|&nbsp;
-        </li>
-        <li class=“nav-item”>
-          <a class=“nav-link” href="./portfolio.html">Portfolio</a>&nbsp|&nbsp;
-        </li>
-        <li class=“nav-item”>
-          <a class=“nav-link” href="./contact.html">Contact</a>&nbsp;
-        </li>
-     </ul>
+    <!-- This is for the space that contains my name that adjusts to full screen at small screen size. -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div id="name" class="navbar-brand">Philip Brackett-Oetinger</div>
+                <div id="refs">
+                    <ul id="list">
+                        <li class="nav-link">
+                            <a href="./index.html">About</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="./portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>  
+        </div>
     </nav>
+    
+    <!-- This space is for the card that reflects information about me. -->
+    <div class="card" style="width: 35rem;">
+        <div class="card-header">About Me
+        </div>
+        <div class="card-block">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="photo-box">
+                        <img class="img-fluid" src="./Mug_Shot.jpg" alt="mug-shot">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum sit sequi aperiam tenetur, illum, at eveniet eligendi possimus beatae dicta esse provident perferendis. Harum facere sit voluptatum natus quos asperiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut commodi eaque tempora harum cupiditate libero fugiat, ex placeat architecto qui dolores sapiente praesentium unde quo facere soluta eius exercitationem quas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
 
     <!-- This space is for a footer -->
-    <div class="footer">
-      <p>&copy; 2020</p>
-    </div>
+    <div class="footer">&copy; 2020</div>
+
+
+
+
+   
 </body>
 </html>
